@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "circuitsvis>=1.43.3",
+    "dotenv>=0.9.9",
+    "einops>=0.8.2",
+    "fancy-einsum>=0.0.3",
+    "jaxtyping>=0.3.11",
+    "nbformat>=5.10.4",
+    "numpy>=2.5.1",
+    "plotly>=6.9.0",
+    "torch>=2.13.0",
+    "tqdm>=4.68.4",
+    "transformer-lens>=3.5.1",
+]
