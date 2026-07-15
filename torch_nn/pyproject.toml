@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "jaxtyping>=0.3.11",
+    "numpy>=2.5.1",
+    "torch>=2.13.0",
+]
+
+[tool.ruff.lint]
+# jaxtyping shape annotations (e.g. Float[Tensor, "count 2"]) are string literals,
+# not forward references, so Ruff misparses them and raises false-positive F722s.
+ignore = ["F722"]
