@@ -10,7 +10,7 @@ uv sync
 
 ## Usage
 
-Open `TorchCNN.ipynb` and run the cells top to bottom. It will:
+Open [TorchCNN.ipynb](TorchCNN.ipynb) and run the cells top to bottom. It will:
 
 1. Download MNIST and split it into train/test sets.
 2. Train a small CNN (2 conv layers + a linear head) on GPU if available.
